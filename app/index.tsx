@@ -13,3 +13,6 @@ export default function Index() {
     </View>
   );
 }
+export function useSafeAreaFrame() {
+  return useSafeAreaInsets();
+}
